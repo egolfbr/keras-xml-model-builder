@@ -1,4 +1,4 @@
-# keras-xml-model-builder
+# keras-xml-model-builder (Work in Progress)
 A Keras model builder which takes in an xml file and then builds a Keras model.
 
 ## Description
