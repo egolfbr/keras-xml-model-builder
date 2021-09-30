@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<model>
+  <model_type>Sequential</model_type>
+  <input_shape>10,1</input_shape>
+  <layer>
+    <layer_type>Dense</layer_type>
+    <units>10</units>
+    <activation>relu</activation>
+    <input_dim>10</input_dim>
+  </layer>
+  <layer>
+    <layer_type>Dense</layer_type>
+    <units>5</units>
+    <activation>relu</activation>
+  </layer>
+   <layer>
+    <layer_type>Dense</layer_type>
+    <units>1</units>
+    <activation>softmax</activation>
+  </layer>
+  <layer>
+    <layer_type>compile</layer_type>
+    <loss>binary_crossentropy</loss>
+    <optimizer>adam</optimizer>
+    <metrics>accuracy</metrics>
+  </layer>
+</model>
