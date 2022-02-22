@@ -1,5 +1,5 @@
 import os
-os.environ["KERAS_BACKEND"] = "plaidml.keras.backend"
+os.environ["KERAS_BACKEND"] = "tensorflow"
 import keras 
 from keras.engine.base_layer import Layer
 from keras import layers
