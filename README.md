@@ -28,4 +28,4 @@ Ex.
 - ```<rate>```
 - ```<input_dim>```
 
-
+Future updates will include more layer types and parameters. 
